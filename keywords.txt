@@ -1,0 +1,43 @@
+﻿##########################################################
+# ¤                                                    ¤ #
+#  Fichero de palabras reservadas de PortSteps(.h|.cpp)  #
+#                .Escrito por Juan R. L.                 #
+#              ~~~~~~~~~~~~~~~~~~~~~~~~~~~               #
+##########################################################
+
+# Lib #
+
+PortSteps	KEYWORD1
+
+# Macros #
+
+MS	LITERAL1
+US	LITERAL1
+SIMPLE	LITERAL1
+WAVE	LITERAL1
+MIXED	LITERAL1
+LEFT	LITERAL1
+RIGHT	LITERAL1
+PORTD	LITERAL1
+PORTC	LITERAL1
+PORTB	LITERAL1
+
+# Funciones #
+
+setPort	KEYWORD2
+setStepDelay	KEYWORD2
+setSequence	KEYWORD2
+setRotation	KEYWORD2
+getRotation	KEYWORD2
+run	KEYWORD2
+stepSync	KEYWORD2
+step	KEYWORD2
+
+
+# Tipos #
+
+delayUnit	LITERAL1
+stepRotation	LITERAL1
+PortStep	LITERAL1
+
+
