@@ -71,7 +71,7 @@ struct PortStep
 	public:
 
 		/*	
-			->	"setPort" permite habilitar los pines (a,b,c,d) del puerto (&port) que controlarán el motor.
+			->	"setPort" permite habilitar los pines (a,b,c,d) del puerto (&port) que controlará el motor.
 			->	"setStepDelay" establece el periodo (period) entre pasos y su unidad (MS ó US).
 			->	"setSequence" establece la secuencia (SIMPLE, WAVE ó MIXED). Ver en macros: tipos de secuencia.
 			->	"setRotation" establece el sentido de giro del motor (LEFT ó RIGHT).
