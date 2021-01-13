@@ -81,7 +81,7 @@ struct PortStep
 			->	"step" permite dar un paso (sin retraso final).
 		*/
 
-		void setPort(volatile unsigned char &_port, unsigned char _a, unsigned char _b, unsigned char _c, unsigned char _d);
+		void setPort(volatile unsigned char &port, unsigned char a, unsigned char b, unsigned char c, unsigned char d);
 		void setStepDelay(unsigned int period, delayUnit MSorUS);
 		void setSequence(unsigned char sequence);
 		void setRotation(stepRotation LEFTorRIGHT);
