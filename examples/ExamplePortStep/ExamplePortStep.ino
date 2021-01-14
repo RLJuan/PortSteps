@@ -12,7 +12,7 @@ void setup()
 void loop()
 {
   motor.setRotation(LEFT);    // Configura rotación a izquierdas
-  motor.run(1000);            // Rota 500 pasos
+  motor.run(1000);            // Rota 1000 pasos
   motor.setRotation(RIGHT);   // Configura rotación a derechas
-  motor.run(1000);            // Rota 500 pasos
+  motor.run(1000);            // Rota 1000 pasos
 }
